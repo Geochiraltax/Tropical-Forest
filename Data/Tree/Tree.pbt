@@ -51,6 +51,7 @@ Objects {
   ChildIds: 5276149075215446910
   ChildIds: 12057421753797189491
   ChildIds: 15637922239793086461
+  ChildIds: 2906533671205881846
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -60,6 +61,48 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2906533671205881846
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -1254.98254
+      Y: -92.5067749
+      Z: 819.397217
+    }
+    Rotation {
+      Pitch: -62.135376
+      Yaw: -177.259689
+      Roll: -92.018158
+    }
+    Scale {
+      X: 1.72483253
+      Y: 1.30528176
+      Z: 3.45120668
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13921263645451418822
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -3620,6 +3663,7 @@ Objects {
   }
   PlayerSpawnPoint {
     TeamInt: 1
+    PlayerScaleMultiplier: 1
   }
 }
 Objects {

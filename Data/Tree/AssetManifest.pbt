@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13921263645451418822
+  Name: "Rock 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
   Id: 13715953383353548377
   Name: "Kelp Bush 01"
   PlatformAssetType: 1

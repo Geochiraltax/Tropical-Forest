@@ -2,7 +2,7 @@
   Id: 13965179688534774497
   Name: "gra"
   PlatformAssetType: 13
-  SerializationVersion: 62
+  SerializationVersion: 65
   CustomMaterialAsset {
     BaseMaterialId: 12918620062409814576
     ParameterOverrides {
