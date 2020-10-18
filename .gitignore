@@ -3,13 +3,13 @@
 Temp/
 
 # Local user settings used to store script breakpoints & hierarchy state (locked/hidden objects)
-# No need to synchronize
+# Currently running w/ defailt settings so I might really not synchro this forever.
 UserSettings/
 
 # Screenshots used when publishing & for project thumbnails in the Create tab
-# Comment out if you want to synchronize screenshots
+# Synchro not needed until I publish the game.
 Screenshots/
 
 # Directory created when migrating from an old storage format
-# No need to synchronize
+# No need to synchro
 .core_backup/
