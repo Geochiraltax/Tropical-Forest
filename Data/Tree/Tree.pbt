@@ -135,58 +135,10 @@ Objects {
     GeneratorID: "DEPRECATED"
     Foliage {
       Asset {
-        Id: 5640108691521860029
-      }
-      DistanceBetweenInstances: 200
-      SpawnDistance: 20800
-      CullDistance {
-        Min: 10000
-        Max: 20000
-      }
-      ReceivesDecals: true
-      GroundSlopeAngle {
-        Max: 90
-      }
-      Scaling {
-        ScaleX {
-          Min: 1
-          Max: 2.8
-        }
-        ScaleY {
-          Min: 1
-          Max: 1
-        }
-        ScaleZ {
-          Min: 1
-          Max: 1
-        }
-      }
-      RotationAlignment: AlignToWorldUp
-      RandomYaw: true
-      RandomPitchAngle: 6
-      Materials {
-        key: "Nature_Leaves"
-        value {
-          Id: 841534158063459245
-        }
-      }
-      LocalPositionOffset {
-      }
-      LocalRotationOffset {
-      }
-      GlobalPositionOffset {
-      }
-      Height {
-        Min: -102400
-        Max: 102400
-      }
-    }
-    Foliage {
-      Asset {
-        Id: 11476415493379117732
+        Id: 10687841859703316334
       }
       DistanceBetweenInstances: 100
-      SpawnDistance: 20800
+      SpawnDistance: 22400
       CullDistance {
         Min: 10000
         Max: 20000
@@ -231,10 +183,10 @@ Objects {
     }
     Foliage {
       Asset {
-        Id: 17290999288889153385
+        Id: 11476415493379117732
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 200
+      SpawnDistance: 20800
       CullDistance {
         Min: 10000
         Max: 20000
@@ -246,7 +198,7 @@ Objects {
       Scaling {
         ScaleX {
           Min: 1
-          Max: 3
+          Max: 1
         }
         ScaleY {
           Min: 1
@@ -261,7 +213,7 @@ Objects {
       RandomYaw: true
       RandomPitchAngle: 6
       Materials {
-        key: "Nature_Leaves"
+        key: "Nature_Grass"
         value {
           Id: 841534158063459245
         }
