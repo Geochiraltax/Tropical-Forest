@@ -152,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 9412361469233748454
-  Name: "Waterfall 90 Outer Corner"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "waterfall_90oc"
-  }
-}
-Assets {
   Id: 8838160696179927850
   Name: "Generic Water"
   PlatformAssetType: 2

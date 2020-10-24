@@ -49,7 +49,6 @@ Objects {
   ChildIds: 12125104777523825051
   ChildIds: 17322358634061530998
   ChildIds: 5276149075215446910
-  ChildIds: 12057421753797189491
   ChildIds: 15637922239793086461
   ChildIds: 2906533671205881846
   UnregisteredParameters {
@@ -185,7 +184,7 @@ Objects {
       Asset {
         Id: 11476415493379117732
       }
-      DistanceBetweenInstances: 200
+      DistanceBetweenInstances: 130
       SpawnDistance: 20800
       CullDistance {
         Min: 10000
@@ -227,48 +226,6 @@ Objects {
       Height {
         Min: -102400
         Max: 102400
-      }
-    }
-  }
-}
-Objects {
-  Id: 12057421753797189491
-  Name: "Waterfall 90 Outer Corner"
-  Transform {
-    Location {
-      X: -1053.30408
-      Y: -1410.5155
-      Z: 2135.90869
-    }
-    Rotation {
-      Pitch: 12.1736364
-      Yaw: -137.794586
-      Roll: 10.8270416
-    }
-    Scale {
-      X: 0.999998
-      Y: 1.23875606
-      Z: 9.03577328
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9412361469233748454
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
       }
     }
   }
